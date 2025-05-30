@@ -65,6 +65,12 @@
             <version>4.0.2</version>
         </dependency>
 
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>1.5</version>
+        </dependency>
+
         <!-- Simple Xml Framework -->
         <dependency>
             <groupId>org.simpleframework</groupId>
@@ -131,6 +137,7 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <build>
